@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Cute shop</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/shop.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">shop</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="html/about.html">about shop</a>
+                    </li>
+                    <li>
+                        <a href="html/services.html">help</a>
+                    </li>
+                    <li>
+                        <a href="html/contacts.html">contacts</a>
+                    </li>
+					
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">｡*✧ Cute shop ✧*｡</p>
+				<br>
+				<h3><a href="" class="cart-link" data-toggle="modal" data-target="#Cart"> cart *:༅｡.｡༅:*</a> </h3>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="images/carousel/rucksack.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/carousel/mirror.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/carousel/socks.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/tickets/candle.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$38.99</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FirstGoodModal">Dessert candle 𓂅  ָ࣪ ۰</a>
+                                </h4>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">53 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/tickets/couch.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$299.99</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#SecondGoodModal">Pink couch ೀ ֹ ִ݂ .</a>
+                                </h4>
+                                <p>This is a short description.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/tickets/cup.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$14.99</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#ThirdGoodModal">Handmade cup ۫𔓕࣭☽</a>
+                                </h4>
+                                <p>This is a short description.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/tickets/earrings.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$12.99</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FourthGoodModal">Pearl earrings heart 🤍</a>
+                                </h4>
+                                <p>This is a short description.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">61 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                         <div class="thumbnail">
+                             <img src="images/tickets/cutlery.jpg" alt="">
+                             <div class="caption">
+                                 <h4 class="pull-right">$23,99</h4>
+                                 <h4><a href="" data-toggle="modal" data-target="#FourthGoodModal">Kitty cutlery set ^~^</a>
+                                 </h4>
+                                 <p>This is a short description.</p>
+                             </div>
+                             <div class="ratings">
+                                 <p class="pull-right">6 reviews</p>
+                                 <p>
+                                     <span class="glyphicon glyphicon-star"></span>
+                                     <span class="glyphicon glyphicon-star"></span>
+                                     <span class="glyphicon glyphicon-star"></span>
+                                     <span class="glyphicon glyphicon-star-empty"></span>
+                                     <span class="glyphicon glyphicon-star-empty"></span>
+                                 </p>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/tickets/manga.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$11.99</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FifthGoodModal">My Dress-Up Darling⋆*｡୨୧⋆₊˚</a>
+                                </h4>
+                                <p>This is a short description.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">98 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+	
+	<div class="modal fade" id="FirstGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product1</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(1).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-1"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="SecondGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product2</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(2).jpg"
+        <p>*description* &hellip;</p> 
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-2"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<div class="modal fade" id="ThirdGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product3</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(3).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-3"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FourthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product4</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(4).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-4"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">close</button>
+        <button type="button" class="btn btn-primary">save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FifthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product5</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(5).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-5"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">close</button>
+        <button type="button" class="btn btn-primary">save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<div class="modal fade" id="Cart">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Cart</h4>
+      </div>
+      <div class="modal-body cart-body">
+	
+      </div>
+      <div class="modal-footer">
+	  		<button type="button" class="btn btn-default btn-close" OnClick="clearCart(); $('.cart-body').html('');"> clear cart </button>
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">close</button>
+        <button type="button" class="btn btn-primary btn-order">order</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    
+
+</body>
+
+</html>
