@@ -1360,7 +1360,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #ffedf5
 }
 
 button,input,select,textarea {
@@ -1520,7 +1520,7 @@ p {
 
 @media (min-width: 768px) {
     .lead {
-        font-size:21px
+        font-size:38px
     }
 }
 
