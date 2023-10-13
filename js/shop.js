@@ -55,11 +55,11 @@ $(document).ready(function() {
 	});
 	$('.ok-5').on('click', function() {
 		var a = $('.count-input').val();
-		AddToCard(7, a);
+		AddToCard(5, a);
 	});
 	$('.ok-6').on('click', function() {
                 var a = $('.count-input').val();
-                AddToCard(6, a);
+                AddToCard(4, a);
           });
 
 	function AddToCard(n, amount){
@@ -130,30 +130,30 @@ $(document).ready(function() {
 			$('.amount3').val(cart[i]);
 					break;
 
-                case 4:
-                    //var t = "My Dress-Up Darling";
-            document.querySelector('.cart-body').insertAdjacentHTML(
-            'afterbegin',
-            `<div class="row">
-            <input readonly class="product4"></input>
-            <input readonly class="amount4"></input>
-             </div>`)
-            $('.product4').val("Kitty cutlery set");
-            $('.amount4').val(cart[i]);
-                    break;
+                                case 4:
+                                        //var t = "My Dress-Up Darling";
+                                        document.querySelector('.cart-body').insertAdjacentHTML(
+                        'afterbegin',
+                        `<div class="row">
+                        <input readonly class="product4"></input>
+                        <input readonly class="amount4"></input>
+                        </div>`)
+                        $('.product4').val("Kitty cutlery set");
+                        $('.amount4').val(cart[i]);
+                                        break;
 
 
-                case 5:
-                    //var t = "Kitty cutlery set";
-            document.querySelector('.cart-body').insertAdjacentHTML(
-            'afterbegin',
-            `<div class="row">
-            <input readonly class="product5"></input>
-            <input readonly class="amount5"></input>
-            </div>`)
-            $('.product5').val("My Dress-Up Darling");
-            $('.amount5').val(cart[i]);
-                    break;
+                                case 5:
+                                        //var t = "Kitty cutlery set";
+                                        document.querySelector('.cart-body').insertAdjacentHTML(
+                        'afterbegin',
+                        `<div class="row">
+                        <input readonly class="product5"></input>
+                        <input readonly class="amount5"></input>
+                        </div>`)
+                        $('.product5').val("My Dress-Up Darling");
+                        $('.amount5').val(cart[i]);
+                                        break;
 
 				default:
 
