@@ -55,11 +55,11 @@ $(document).ready(function() {
 	});
 	$('.ok-5').on('click', function() {
 		var a = $('.count-input').val();
-		AddToCard(5, a);
+		AddToCard(4, a);
 	});
 	$('.ok-6').on('click', function() {
                 var a = $('.count-input').val();
-                AddToCard(4, a);
+                AddToCard(5, a);
           });
 
 	function AddToCard(n, amount){
@@ -131,7 +131,7 @@ $(document).ready(function() {
 					break;
 
                                 case 4:
-                                        //var t = "My Dress-Up Darling";
+                                        //var t = "Kitty cutlery set";
                                         document.querySelector('.cart-body').insertAdjacentHTML(
                         'afterbegin',
                         `<div class="row">
@@ -144,7 +144,7 @@ $(document).ready(function() {
 
 
                                 case 5:
-                                        //var t = "Kitty cutlery set";
+                                        //var t = "My Dress-Up Darling";
                                         document.querySelector('.cart-body').insertAdjacentHTML(
                         'afterbegin',
                         `<div class="row">
