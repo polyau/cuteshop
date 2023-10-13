@@ -55,11 +55,11 @@ $(document).ready(function() {
 	});
 	$('.ok-5').on('click', function() {
 		var a = $('.count-input').val();
-		AddToCard(4, a);
+		AddToCard(5, a);
 	});
 	$('.ok-6').on('click', function() {
                 var a = $('.count-input').val();
-                AddToCard(5, a);
+                AddToCard(6, a);
           });
 
 	function AddToCard(n, amount){
