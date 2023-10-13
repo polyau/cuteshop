@@ -55,7 +55,7 @@ $(document).ready(function() {
 	});
 	$('.ok-5').on('click', function() {
 		var a = $('.count-input').val();
-		AddToCard(5, a);
+		AddToCard(7, a);
 	});
 	$('.ok-6').on('click', function() {
                 var a = $('.count-input').val();
